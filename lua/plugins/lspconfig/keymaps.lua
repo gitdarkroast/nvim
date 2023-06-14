@@ -17,7 +17,6 @@ function M.setup(client, buffer)
       r = { telescope.lsp_references, "References" },
       s = { telescope.lsp_document_symbols, "Symbols" },
     },
-
     K = { lsp.buf.hover, "Hover" },
     ["<C-]>"] = { lsp.buf.definition, "Go to definition" },
     ["[d"] = { lsp.diagnostic.goto_prev, "Prev diagnostic" },

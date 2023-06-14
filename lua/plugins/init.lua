@@ -20,7 +20,6 @@ return {
   "tpope/vim-repeat",
   "tpope/vim-rsi",
   "tpope/vim-unimpaired",
-
   "onsails/lspkind.nvim"
 
 }

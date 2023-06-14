@@ -13,12 +13,12 @@ function M.config()
   local servers = {
     -- bashls = {},
     -- elixirls = {},
-    -- sumneko_lua = {
-    --   Lua = {
-    --     telemetry = { enable = false },
-    --     workspace = { checkThirdParty = false },
-    --   },
-    -- },
+    lua_ls = {
+      Lua = {
+        telemetry = { enable = false },
+        workspace = { checkThirdParty = false },
+      },
+    },
   }
 
   require("neodev").setup({})

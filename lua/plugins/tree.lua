@@ -10,8 +10,10 @@ return {
           folder = true,
           folder_arrow = true,
           git = true,
+          modified = true,
         },
-      }
+      },
+      highlight_modified = "all",
     },
   },
 
@@ -21,7 +23,7 @@ return {
   },
 
   keys = {
-    { "<Leader>ee", "<Cmd>NvimTreeToggle<CR>", desc = "Root (toggle)" },
+    { "<Leader>ee", "<Cmd>NvimTreeToggle<CR>",         desc = "Root (toggle)" },
     { "<Leader>ef", "<Cmd>NvimTreeFindFileToggle<CR>", desc = "File (toggle)" },
   },
 }
